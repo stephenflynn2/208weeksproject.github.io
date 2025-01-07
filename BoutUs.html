@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+            <meta name="viewport" content="width=device-width, initial scale=1.0">
+            <title>208WeeksProject</title>
+            <link rel="icon" href="favicon1.ico">
+            
+            <link rel="stylesheet" href="style1.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" 
+            rel="stylesheet"> -->
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">-->
+        <script src="https://kit.fontawesome.com/7570538cb1.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    </head>
+    <body>
+        <section class="header">
+            
+            <nav> <!--Menu Area-->
+                <a href="index.html"><img src="spipng.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="SpiralPage.html">THE SPIRAL</a></li>
+                        <li><a href="Resources.html">RESOURCES</a></li>
+                        <li><a href="https://208weeksproject.wordpress.com">UPDATES</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+            <div class="title">
+                <h1>About Us</h1>
+              
+
+            </div>
+        </section>
+
+        <section class="body1">
+            <div class="d1">
+                <div class="b1d">
+                    <div class="btnRow">   
+                        <hr class="line1">
+                        <h3 class="s1h3">A Little About Us</h3>
+                        <hr class="line1">
+                    </div>
+                    <p>Here, at the 208 Weeks Project, we are a group based in the Midwest (but spreading
+                        nationwide). We are parents, students, neighbors and friends (and probably some dogs -
+                        especially Golden Retrievers). We are concerned about the increase in hate and vitriol aimed
+                        at marginalized people, the destruction of our planet and the increase in economic inequality.
+                       <br>
+                    </p>
+                    <p class="lowp1">
+                        We are trying to counteract these trends by injecting a little happiness, kindness and inclusion
+                        into our daily lives.
+                    </p>
+                </div>
+                
+                <div class="b1row">
+                    <div class="motiv">
+                        
+                            <h3 class="s1h3" id="">Motivation</h3>
+                            <hr class="line2">  
+            
+                        <p> We are worried about the United States and how political polarization seems to be
+                            spreading. We developed the 208 Weeks Project as a way for us to move forward in a positive
+                            way. All of us can make a difference in the world. We
+                            wanted a way we could, mindfully, make a difference in the world and look forward to the future.
+                        </p>
+                    </div>
+
+                    <div class="goals">
+                       
+                            <h3 class="s1h3">Goals</h3>
+                             <hr class="line2">  
+                       
+                        <p>Our goal is to spread kindness, generosity, empathy, and inclusion across the nation by
+                            making at least one person’s life a little better each week. If all of us work together, that’s
+                            spreading a lot of joy and hope. In addition, there are a lot of good people in the world who
+                            have the power, strength and courage to stand up for what is right. We would like to encourage
+                            people who are “doing the right thing” with thank you cards and notes of appreciation.
+                            Positive reinforcement!
+                        </p>
+                    </div>
+                </div>
+
+               <!--  <img src="pup1.jpg" alt=""> -->
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+            <div class="footRow">
+                <div class="pop-pages">
+
+                    <h2>Popular Pages</h2>
+
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="SpiralPage.html">THE SPIRAL</a></li>
+                        <li><a href="Resources.html">RESOURCES</a></li>
+                        <li><a href="BoutUs.html">ABOUT US</a></li>
+                        <li><a href="https://208weeksproject.wordpress.com">UPDATES</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="alsoC">
+
+                    <h2>Popular Resources</h2>
+
+                    <ul>
+                        <li><a href="https://www.activeagainstals.org/">Active Against ALS</a></li>
+                        <li><a href="https://rankmivote.org/">Rank MI Vote</a></li>
+                        <li><a href="https://votersnotpoliticians.com/">Voters Not Politicians</a></li>
+                        <li><a href="https://familylearninginstitute.org/">Family Learning Institute</a></li>
+                        <li><a href="https://www.humanesociety.org/">Humane Society</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </footer>
+
+
+
+        <!-------JavaScript for Toggle Menu--------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+       // var logorb  = document.getElementsById("logorb1");
+
+        
+       function showMenu(){
+            navLinks.style.right = "0";
+            navLinks.classList.remove('hidden-mobile');
+            navLinks.classList.add('visible-mobile'); 
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.classList.add('hidden-mobile');
+            navLinks.classList.remove('visible-mobile');
+        }
+
+    </script>
+
+    <script>
+
+    </script>
+
+
+
+
+    <!-- <script  type="module" src="auth.js"> </script>   Not ready for this yet-->
+
+    </body>
+
+    </html>
